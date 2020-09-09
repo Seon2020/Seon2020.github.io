@@ -1,0 +1,43 @@
+#wrapper {
+  width: 800px;
+  height: 500px;
+  margin: auto;
+  background-image: url("../img/Jupiter4.jpg");
+  background-position: center;
+  background-size: cover;
+  border-style: outset
+}
+body {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  background-color: rgb(233, 145, 236)
+}
+h1, h3 {
+  background-color: pink;
+  background-size: 300px, 100px;
+  text-align: center;
+  display: table;
+  margin: 30 auto;
+  padding: 5px
+}
+#age {
+  width: 45px;
+  font-size: large
+}
+#submit {
+  margin-top: 20px;
+  margin-bottom: 20px
+}
+#output {
+  background-color: pink;
+  padding: 5px;
+}
+#catAge {
+  width: 100px;
+  font-weight: bold;
+  font-size: large;
+}
+
+
