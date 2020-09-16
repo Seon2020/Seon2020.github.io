@@ -1,19 +1,20 @@
 <html>
   <head>
-    <meta charset="utf-8"/>
-    <title>Human to Cat Years</title>
-    <link href="SiteProject.css" type="text/css" rel="stylesheet">
+   <meta charset="utf-8"/>
+   <title>Cat Data Center</title>
+   <link href="SiteProject.css" type="text/css" rel="stylesheet">
+   <h1>CAT DATA CENTER</h1>
   </head>
   <body>
    <div id="wrapper">
-     <h1>Human to Cat Years Converter</h1>
-     <h3>How Old Are You?</h3>
     <form id="form">
-     <div id="ageNumber">
-      <input type="text" id="age" maxlength="3">
-     </div>
-     <br>
-     <div id="calculate">
+     <div id="ageConverter">
+      <h2>Human to Cat Years Converter</h2>
+      <div id="ageNumber">
+       <span id="input">Your Age: </span>
+       <input type="text" id="age" maxlength="3">
+      </div>
+      <br>
       <input type="submit" id="submit" value="Calculate">
       <div id="results">
        <span id="output">Cat Age: </span>
@@ -21,6 +22,24 @@
       </div>
      </div>
     </form>
+    <div id="randomCatBreed">
+     <h2>Generate Random Cat Breed</h2>
+     <input type="button" id="generate" value="Generate">
+     <p id="breed" class="hidden"></p>
+     <p id="aboutBreed" class="hidden"></p>
+    </div>
+    <h2>Favorite Breeds</h2>
+    <div id="listContain">
+    <h4>List The Names of Your Favorite Cat Breeds Below:</h4>
+        <input type="text" id="favoriteBreeds" placeholder="Enter favorite breeds..." maxlength="30">
+        <input type="submit" value="ADD" id="addBreed">
+    <h4>Cat Breeds:</h4>
+    <div id="list">
+    <ul id="breedList">
+    </ul>
+    </div>
+    <button id="delete">Clear List</button>
+    </div>
    </div>
    <footer>
      Created by Sean Hawkins
