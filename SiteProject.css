@@ -1,43 +1,168 @@
 #wrapper {
-  width: 800px;
-  height: 500px;
+  width: 60%;
   margin: auto;
-  background-image: url("https://user-images.githubusercontent.com/70947004/92563263-30d57600-f22c-11ea-9ef8-5ecb41349cb4.jpg");
+  background-color: rgb(132, 100, 219);
   background-position: center;
   background-size: cover;
-  border-style: outset
+  border-style: outset;
+  border-radius: 50px;
+  border-color: purple;
 }
 body {
   text-align: center;
-  text-transform: uppercase;
   font-weight: bold;
   color: black;
-  background-color: rgb(233, 145, 236)
+  background-image: url("https://user-images.githubusercontent.com/70947004/93300275-5540cd80-f7ab-11ea-8665-3333ad0f930f.jpg");
+  background-repeat: repeat;
 }
-h1, h3 {
-  background-color: pink;
-  background-size: 300px, 100px;
+h1 {
+  background-color: rgb(218, 4, 136);
   text-align: center;
   display: table;
-  margin: 30 auto;
-  padding: 5px
+  margin: 5 auto;
+  padding: 10px;
+  text-transform: uppercase;
+  border-style: outset;
+  border-radius: 50px;
+  border-color: pink;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+}
+h2 {
+  background-color: rgb(110, 47, 110);
+  text-align: center;
+  display: table;
+  margin: 20 auto;
+  padding: 5px;
+  text-transform: uppercase;
+  border-style: outset;
+  border-radius: 50px;
+  border-color: purple
 }
 #age {
-  width: 45px;
+  width: 50px;
   font-size: large
 }
 #submit {
-  margin-top: 20px;
-  margin-bottom: 20px
+  width: 100px;
+  padding: 50px 0;
+  line-height: 0;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  border-radius: 50px;
+  background: pink;
+  color: white;
+  cursor: pointer;
+  font-size: large;
+  border-color: purple;
+  transition: .5s;
+  border-style: outset;
 }
-#output {
+#submit:hover {
+  background: salmon;
+  transform: rotate(360deg);
+}
+#output, #input {
   background-color: pink;
-  padding: 5px;
+  padding: 10px;
+  border-style: outset;
+  border-radius: 50px;
+  border-color: hotpink;
+  font-size: large;
 }
 #catAge {
   width: 100px;
-  font-weight: bold;
+  font-weight: bolder;
+  font-size: larger;
+  color: black
+}
+#generate, #delete {
+  width: 100px;
+  padding: 50px 0;
+  line-height: 0;
+  margin: 5px auto;
+  border-radius: 50px;
+  background: pink;
+  color: white;
+  cursor: pointer;
+  font-size: large;
+  border-color: purple;
+  transition: .5s;
+  border-style: outset;
+}
+#generate:hover, #delete:hover {
+  background: salmon;
+  transform: rotate(360deg);
+}
+#breed {
+  background-color: pink;
+  width: 150px;
+  text-align: center;
+  margin: 5 auto;
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  font-weight: bolder;
+  border-style: outset;
+  border-radius: 50px;
+}
+#aboutBreed {
+  background-color: pink;
+  width: 400px;
+  text-align: center;
+  margin: 5 auto;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  padding: 10px;
+  border-style: outset;
+  border-radius: 50px;
+}
+.hidden {
+  visibility: hidden;
+}
+h4 {
+  min-width: fit-content;
+  background-color: pink;
+  padding: 10px;
+  border-style: outset;
+  border-radius: 50px;
+  border-color: hotpink;
+  text-align: center;
+  display: table;
+  margin: 20 auto;
   font-size: large;
 }
-
-
+#listContain {
+  background-color: rgb(157, 15, 170);
+  width: 450px;
+  margin: 20 auto;
+  border-style: dashed;
+  border-color: rgb(73, 1, 102);
+  border-width: 10px;
+}
+#addBreed {
+  border-style: outset;
+  border-color: purple;
+  background-color: pink;
+  font-weight: bold;
+}
+#addBreed:hover {
+  background-color: salmon;
+  height: 30px;
+}
+#favoriteBreeds {
+  height: 30px;
+  border-color: purple;
+  border-style: inset;
+}
+li {
+  border-color:rgb(0, 0, 0);
+  border-style: inset;
+  border-width: medium;
+  letter-spacing: .5px;
+  margin-bottom: 2px;
+  margin-right: 8px;
+  font-family: sans-serif;
+  line-height: 25px;
+}
