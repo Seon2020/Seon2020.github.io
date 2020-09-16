@@ -156,6 +156,8 @@ function clearBreeds() {
   }
   //Clear the LS when the clear button was clicked
   localStorage.setItem('listCat', '');
+  //reload to make the clear immedietly permanent 
+  location.reload();
 }
 
 //get item from local storage and store in 1stStr
