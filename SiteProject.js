@@ -17,8 +17,6 @@ submitAge.addEventListener('click', calculateAge);
 
 // Create function to convert human age to cat age
 function calculateAge() {
-  //Log a message to console 
-  console.log('Calculating...');
   //If input is less than 1, empty, or NaN, populate alert 
   if(age.value <= 0.99 || age.value == "" || isNaN(age.value)) {
     alert("Please input a number that is 1 or greater.");
